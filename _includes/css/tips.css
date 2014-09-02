@@ -1,0 +1,82 @@
+/* tips.css */
+
+.tiptext {
+	margin:20px 0 40px 0;
+}
+.tiptext h2 {
+	color:#712B8D;
+	font-size:1.35em;
+	margin:0px 0 8px 0;
+	text-transform:uppercase;
+}
+.tiptext h3 {
+	color: #EB008B;
+	font-size:1.25em;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+}
+.tiptext h4 {
+	color: #525252;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+}
+
+.tiptext h5 {
+	color: #6E298D;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+}
+
+.tiptext h6 {
+	color: #EB008B;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+}
+
+.tiptext ul {
+	bborder:1px solid orange;
+	margin:0 0 0 40px;
+}
+.tiptext p {
+	color:#525252; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 20px 0;
+}
+
+.tiptext span {color:#525252; font-weight:bold}
+
+ul#tiptext li {
+	font-size:1.2em;
+	line-height:1.3em;
+	font:Arial, Helvetica, sans-serif;
+	color: #EB008B;
+	padding-bottom:10px;
+}
+ul#tiptext li span{color:#525252; font-weight:normal;}
+ul#tiptext li.last{color:#EB008B; font-weight:normal; padding-bottom:20px;}
+ul#tiptext li.last span{color:#525252;}
+
+ol#tiptext li {
+	font-size:1.2em;
+	line-height:1.3em;
+	font:Arial, Helvetica, sans-serif;
+	color: #EB008B;
+	padding-bottom:10px;
+	margin:0 0 0 20px;
+	font-weight:bold;
+}
+
+ol#tiptext li span{color:#525252; font-weight:normal;}
+ol#tiptext li.last{color:#EB008B; font-weight:bold; padding-bottom:20px;}
+ol#tiptext li.last span{color:#525252; font-weight:normal;}
+
+/* sub nav */
+/* overrides from global.css */
+
+ul#sub-nav li a:hover {color: #EB1A3E; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #EB1A3E; text-decoration:underline;}
+ul#sub-nav li a#current {color:#EB1A3E; font-weight:bold;} 
+
+

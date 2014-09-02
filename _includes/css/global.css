@@ -1,0 +1,710 @@
+/*-- global.css --*/
+
+
+/*-- reset default browser styles --*/
+ul, ol, li, form, h1, h2, h3, h4, h5, p, dl, dt, dd, iframe, embed, input, form{padding:0; margin:0;}
+address {font-style:normal;}
+img{border:0;}
+
+
+/*-- basic structure --*/
+html{height:101%;}
+body {
+	margin:0;
+	padding:0;
+	color:#525252;
+	font-size:64%;
+	background:#ccc;
+}
+#main {
+	margin:10px auto 10px auto;
+	width:940px;
+	padding:0 0 3px 0;
+	border:1px solid #aeb5ba;
+	overflow:hidden;
+	font:1em Arial, sans-serif;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-position: 195px 129px;
+}
+.home{bbackground:url(../images/banner-home.jpg);}
+.whyChooseSFT{background:url(../images/banner-whyChooseSFT.jpg);}
+.degreeGranting{background:url(../images/banner-degreeGranting.jpg);}
+.faculty{background:url(../images/banner-faculty.jpg);}
+.directions{background:url(../images/banner-directions.jpg);}
+.twoYearProgram{background:url(../images/banner-twoYearProgram.jpg);}
+.degree{background:url(../images/banner-degree.jpg);}
+.summerProgram{background:url(../images/banner-fourWeekProgram.jpg);}
+.summerProgramNew{background:url(../images/banner-fourWeekProgramNew.jpg);}
+.alumni{background:url(../images/banner-alumni.jpg);}
+.quiz{background-image: url(../images/banner-quiz.jpg);}
+.graduation2009{background-image: url(../images/banner-graduation2009.jpg);}
+.graduation2010{background-image: url(../images/banner-graduation2010.jpg);}
+.graduation2011{background-image: url(../images/banner-graduation2011.jpg);}
+.alumniSHennig{background-image: url(../images/banner-shennig.jpg);}
+.alumniMFox{background-image: url(../images/banner-mfox.jpg);}
+.alumniSDBlain{background-image: url(../images/banner-sdblain.jpg);}
+.alumniJSussman{background-image: url(../images/banner-jsussman.jpg);}
+.alumniGWomack{background-image: url(../images/banner-gwomack.jpg);}
+.alumniDDelrio{background-image: url(../images/banner-ddelrio.jpg);}
+.alumniMHavok{background-image: url(../images/banner-mhavok.jpg);}
+.alumniJGotzon{background-image: url(../images/banner-jgotzon.jpg);}
+.alumniLNichols{background-image: url(../images/banner-lnichols.jpg);}
+.alumniSHolroyd{background-image: url(../images/banner-sholroyd.jpg);}
+.alumniLFales{background-image: url(../images/banner-lfales.jpg);}
+.scholarship{background:url(../images/banner-scholarship.jpg);}
+.bookstore{background:url(../images/banner-bookstore.jpg);}
+.transcript{background:url(../images/banner-transcript.jpg);}
+.tips{background:url(../images/banner-tips.jpg);}
+.tour{background:url(../images/banner-tour.jpg);}
+.legal{background:url(../images/banner-sm-legal.jpg);}
+.sitemap{background:url(../images/banner-sm-sitemap.jpg);}
+.spotlight1{background:url(../images/banner-sm-spotlight1.jpg);}
+.spotlight2{background:url(../images/banner-sm-spotlight2.jpg);}
+.newsArchive{background:url(../images/banner-sm-newsArchive.jpg);}
+.mailingList{background:url(../images/banner-sm-mailingList.jpg);}
+.mailingList2{background:url(../images/banner-sm-mailingList2.jpg);}
+.audition{background:url(../images/banner-sm-audition.jpg);}
+.intchecklist{background:url(../images/banner-sm-intchecklist.jpg);}
+.sfa1{background:url(../images/banner-sfa1.jpg);}
+.sfa2{background:url(../images/banner-sfa2.jpg);}
+.sfa3{background:url(../images/banner-sfa3.jpg);}
+.sfa4{background:url(../images/banner-sfa4.jpg);}
+.sfa5{background:url(../images/banner-sfa5.jpg);}
+.sfa6{background:url(../images/banner-sfa6.jpg);}
+.sfa7{background:url(../images/banner-sfa7.jpg);}
+.sfa8{background:url(../images/banner-sfa8.jpg);}
+.sfa9{background:url(../images/banner-sfa9.jpg);}
+.sfa10{background:url(../images/banner-sfa10.jpg);}
+.sfa11{background:url(../images/banner-sfa11.jpg);}
+.pageNotFound{background:url(../images/banner_error.jpg);}
+.course-catalog-1{background:url(../images/banner-catalog-1.jpg);}
+.course-catalog-2{background:url(../images/banner-catalog-2.jpg);}
+.course-catalog-3{background:url(../images/banner-catalog-3.jpg);}
+.auditions{background:url(../images/banner-auditions.jpg);}
+.contactus{background:url(../images/banner-contact.jpg);}
+.applynow{background:url(../images/banner-apply.jpg);}
+.webisodes{background:url(../images/banner-sm-webisodes.jpg);}
+.duchess{background:url(../images/banner-duchess.jpg);}
+.duchess2{background:url(../images/banner-duchess2.jpg);}
+.generalInfo{background:url(../images/banner-sm-generalInfo.jpg);}
+.vaccination{background:url(../images/banner-sm-vaccination.jpg);}
+.accreditation{background:url(../images/banner-sm-accreditation.jpg);}
+.transferCredit{background:url(../images/banner-sm-transferCredit.jpg);}
+.missingPerson{background:url(../images/banner-sm-missingPerson.jpg);}
+.ferpa{background:url(../images/banner-sm-ferpa.jpg);}
+.educationalPrograms{background:url(../images/banner-sm-educationalPrograms.jpg);}
+.instructionalFacilities{background:url(../images/banner-sm-instructionalFacilities.jpg);}
+.admissionStaffOnStage{background:url(../images/banner-sm-admissionStaffOnStage.jpg);}
+.voterregistration{background:url(../images/banner-sm-voterRegistration.jpg);}
+.servicesstudentsdisabilities{background:url(../images/banner-sm-servicesStudentsDisabilities.jpg);}
+.placement{background:url(../images/banner-sm-placement.jpg);}
+.textbookinformation{background:url(../images/banner-sm-textbookInformation.jpg);}
+.financialAid{background:url(../images/banner-sm-financialAid.jpg);}
+.jobSeekers{background:url(../images/banner-sm-jobSeekers.jpg);}
+.courseCatalog{background:url(../images/banner-sm-courseCatalog.jpg);}
+.toronto{background:url(../images/banner-toronto.jpg);}
+.vancouver{background:url(../images/banner-vancouver.jpg);}
+.london{background:url(../images/banner-london.jpg);}
+.cincinnati{background:url(../images/banner-cincinnati.jpg);}
+.miami{background:url(../images/banner-miami.jpg);}
+.phoenix{background:url(../images/banner-phoenix.jpg);}
+.dallas{background:url(../images/banner-dallas.jpg);}
+.houston{background:url(../images/banner-houston.jpg);}
+.atlanta{background:url(../images/banner-atlanta.jpg);}
+.boston{background:url(../images/banner-boston.jpg);}
+.chicago{background:url(../images/banner-chicago.jpg);}
+.denver{background:url(../images/banner-denver.jpg);}
+.kansascity{background:url(../images/banner-kansascity.jpg);}
+.sanantonio{background:url(../images/banner-sanantonio.jpg);}
+.losangeles{background:url(../images/banner-losangeles.jpg);}
+.openhouse{background:url(../images/banner-openhouse.jpg);}
+.orlando{background:url(../images/banner-orlando.jpg);}
+.washington{background:url(../images/banner-washington.jpg);}
+.januaryStart{background:url(../images/banner-januaryStart.jpg);}
+.theImportance{background:url(../images/banner-theImportance.jpg);}
+.summerBoatParty{background:url(../images/banner-summerBoatParty.jpg);}
+.summersweden{background:url(../images/banner-summer-sweden.jpg);}
+.degree{background:url(../images/banner-degree.jpg);}
+.springAwakening{background:url(../images/banner-springAwakening.jpg);}
+.blog{background:url(../images/banner-sm-blog.jpg);}
+.accelerated{background:url(../images/banner-accelerated-program.jpg);}
+.joansee{background:url(../images/banner-joan-see.jpg);}
+.joansee2{background:url(../images/banner-joan-see-2.jpg);}
+.fastTrackProgram{background:url(../images/banner-fast-track.jpg);}
+.fastTrackProgramNew{background:url(../images/banner-fast-track-new.jpg);}
+.seattle{background:url(../images/banner-seattle.jpg);}
+.newyork{background:url(../images/banner-newyork.jpg);}
+.charlotte{background:url(../images/banner-charlotte.jpg);}
+.sanfrancisco{background:url(../images/banner-sanfrancisco.jpg);}
+.missoula{background:url(../images/banner-missoula.jpg);}
+.minneapolis{background:url(../images/banner-minneapolis.jpg);}
+.portland{background:url(../images/banner-portland.jpg);}
+.nacac-calendar{background:url(../images/banner-sm-nacac.jpg);}
+.privacy-policy{background:url(../images/banner-sm-privacy-policy.jpg);}
+.press-release{background:url(../images/banner-sm-press-release.jpg);}
+.open-letter{background:url(../images/banner-sm-open-letter.jpg);}
+.openLetterNew{background:url(../images/open-letter-banner.jpg);}
+.facebookAd{background:url(../images/banner-facebook-ad.jpg);}
+
+/*-- global link styles --*/
+a {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:underline;}
+a:visited {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:underline;}
+a:hover {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:none;}
+a:focus {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:none;}
+a:active {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:none;}
+
+a.top {
+	color:#EB008B;	
+	font: bold 1.1em Arial, Helvetica, sans-serif;
+	margin-top:20px;
+	ppadding:0 0 0 13px;
+	text-decoration:none;
+}
+a.top:hover {
+	color:#EB008B;
+	text-decoration:underline;
+}
+
+.first {background:none !important;}
+
+
+
+/*-- header --*/
+#header{
+	bborder:1px solid green;
+	padding:0 0px 0px 0;
+}
+strong#logo {
+	float:left;
+	height:128px;
+	margin:0 0 0 13px;
+}
+strong#logo a {
+	float:left;
+	margin:12px 0 0 0;
+	width:275px;
+	height:100px;
+	background:url(../images/logo.jpg) no-repeat;
+	text-indent:-9999px;
+}
+a#header-course-catalog {
+	float:right;
+}
+a#header-course-catalog IMG {
+	margin-bottom: 20px;
+}
+ul#top-nav {
+	bborder:1px solid blue;
+	float:right;
+	width:100px;
+	margin:10px 0 0 0;
+	position:relative;
+	top:0; left:0;
+	z-index:120;
+}
+ul#top-nav li {
+	bbackground:#fff;
+	padding:6px 0 7px 0;
+	list-style:none;
+	text-align:right;
+	border-bottom:1px solid #ccc;
+}
+ul#top-nav li.last {border:0;}
+ul#top-nav li a {
+	color:#a1248c;
+	font-size:1.2em;
+	text-decoration:none;
+	font:1.15em Georgia, Times, serif;
+}
+ul#top-nav li a:hover {text-decoration:underline;}
+a#header-course-catalog {
+	float:right;
+	
+}
+
+a#header-vip {
+	float:right;
+}
+
+a#header-book-audition {
+	float:right;
+}
+
+a#header-get-degree {
+	float:right;
+}
+
+
+
+
+
+
+/*-- left column & navigation --*/
+/*-- left column --*/
+.column-left {
+	border-right:2px solid #c0edf2;
+	clear:left;
+	float:left;
+	width:193px;
+}
+ul#main-nav {
+	float:left;
+	list-style:none;
+	margin:26px 0 0 12px;
+	display:inline;
+	width:175px;
+}
+ul#main-nav li {
+	display:block;
+	float:left;
+	margin:0 0 10px 0;
+	width:175px;
+}
+ul#main-nav li span.line-break {display:block; padding:0 0 0 15px;}
+ul#main-nav li a {
+	color:#666;
+	font-size:1.2em;
+	padding:0 0 0 15px;
+	text-decoration:none;
+}
+ul#main-nav li ul {
+	background:#fff;
+	float:left;
+	width:175px;
+	padding:0;
+	margin:2px 0 0 0;
+	display:inline;
+}
+ul#main-nav li ul li {
+	float:left;
+	width:175px;
+	margin:0;
+	padding:0;
+}
+ul#main-nav li ul li a {
+	font-weight:normal;
+	color:#3f3f3f;
+	font-size:1.2em;
+	line-height:1.8em;
+	padding:0 0 0 15px;
+}
+ul#main-nav li ul li a.external {
+	background:url(../images/icon-link-external.gif) no-repeat right center;
+	padding:0 13px 0 15px;	
+}
+ul#main-nav li.about-us-links a#a-about-us-links:hover{
+	color:#6e298d;
+	background:url(../images/bullet-aboutus-closed.gif) no-repeat 0 3px;
+}
+ul#main-nav li.about-us-links a:hover{
+	color:#6e298d;
+}
+ul#main-nav li.about-us-links a.current-top{
+	color:#6e298d;
+	background:url(../images/bullet-aboutus-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.about-us-links a.current-sub{
+	color:#6e298d;
+	font-weight:bold;
+}
+ul#main-nav li.about-us-links ul li a.current-sub {color:#6e298d;}
+ul#main-nav li.tour-the-school-links a:hover {
+	background:url(../images/bullet-tourtheschool-closed.gif) no-repeat 0 3px;
+	color:#EB008B;
+}
+ul#main-nav li.tour-the-school-links a.current-top {
+	color:#EB008B;
+	background:url(../images/bullet-tourtheschool-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.two-year-links a:hover {
+	background:url(../images/bullet-twoyear-closed.gif) no-repeat 0 3px;
+	color:#8cc63f;
+}
+ul#main-nav li.two-year-links a:hover{
+	color:#8cc63f;
+}
+ul#main-nav li.two-year-links a.current-top{
+	color:#8cc63f;
+	background:url(../images/bullet-twoyear-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.two-year-links a.current-sub{
+	color:#8cc63f;
+	font-weight:bold;
+}
+ul#main-nav li.two-year-links ul li a.current-sub {color:#8cc63f;}
+ul#main-nav li.summer-program-links a:hover{
+	color:#00b5cc;
+	background:url(../images/bullet-summerprogram-closed.gif) no-repeat 0 3px;
+}
+ul#main-nav li.summer-program-links a:hover{
+	color:#00b5cc;
+}
+ul#main-nav li.summer-program-links a.current-top{
+	color:#00b5cc;
+	background:url(../images/bullet-summerprogram-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.summer-program-links a.current-sub{
+	color:#00b5cc;
+	font-weight:bold;
+}
+ul#main-nav li.summer-program-links ul li a.current-sub {color:#8cc63f;}
+
+
+
+ul#main-nav li.fast-track-program-links a:hover{
+	color:#d639ae;
+	background:url(../images/bullet-fasttrackprogram-closed.gif) no-repeat 0 3px;
+}
+ul#main-nav li.fast-track-program-links a:hover{
+	color:#d639ae;
+}
+ul#main-nav li.fast-track-program-links a.current-top{
+	color:#d639ae;
+	background:url(../images/bullet-fasttrackprogram-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.fast-track-program-links a.current-sub{
+	color:#d639ae;
+	font-weight:bold;
+}
+ul#main-nav li.fast-track-program-links ul li a.current-sub {color:#d639ae;}
+
+
+
+ul#main-nav li.scholarships-links a:hover{
+	color:#f8981d;
+	background:url(../images/bullet-scholarship-closed.gif) no-repeat 0 3px;
+}
+ul#main-nav li.scholarships-links a:hover{
+	color:#f8981d;
+}
+ul#main-nav li.scholarships-links a.current-top{
+	color:#f8981d;
+	background:url(../images/bullet-scholarship-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.scholarships-links a.current-sub{
+	color:#f8981d;
+	font-weight:bold;
+}
+ul#main-nav li.scholarships-links ul li a.current-sub {color:#f8981d;}
+ul#main-nav li.alumni-links a:hover{
+	background:url(../images/bullet-alumni-closed.gif) no-repeat 0 3px;
+	color:#509442;
+}
+ul#main-nav li.alumni-links a:hover{
+	color:#509442;
+}
+ul#main-nav li.alumni-links a.current-top{
+	color:#509442;
+	background:url(../images/bullet-alumni-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.alumni-links a.current-sub{
+	color:#509442;
+	font-weight:bold;
+}
+ul#main-nav li.alumni-links ul li a.current-sub {color:#f8981d;}
+ul#main-nav li.student-links a#a-student-links:hover{
+	background:url(../images/bullet-student-services-closed.gif) no-repeat 0 3px;
+	color:#007cc2;
+}
+ul#main-nav li.student-links a:hover{
+	color:#007cc2;
+}
+ul#main-nav li.student-links a.current-top{
+	color:#007cc2;
+	background:url(../images/bullet-student-services-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+ul#main-nav li.student-links a.current-sub{
+	color:#007cc2;
+	font-weight:bold;
+}
+ul#main-nav li.student-links ul li a.current-sub {color:#007cc2;}
+
+ul#main-nav li.tips-links a#a-tips-links:hover{
+	background:url(../images/bullet-tips-closed.gif) no-repeat 0 3px;
+	color:#EB1A3E;
+}
+ul#main-nav li.tips-links a:hover{
+	color:#EB1A3E;
+}
+ul#main-nav li.tips-links a.current-top{
+	color:#EB1A3E;
+	background:url(../images/bullet-tips-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+
+ul#main-nav li.apply-links a#a-apply-links:hover{
+	background:url(../images/bullet-student-services-closed.gif) no-repeat 0 3px;
+	color:#2334c2;
+}
+ul#main-nav li.apply-links a:hover{
+	color:#2334c2;
+}
+ul#main-nav li.apply-links a.current-top{
+	color:#2334c2;
+	background:url(../images/bullet-student-services-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+
+ul#main-nav li.audition-links a#a-audition-links:hover{
+	background:url(../images/bullet-aboutus-closed.gif) no-repeat 0 3px;
+	color:#6E298D;
+}
+ul#main-nav li.audition-links a:hover{
+	color:#6E298D;
+}
+ul#main-nav li.audition-links a.current-top{
+	color:#6E298D;
+	background:url(../images/bullet-aboutus-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+
+ul#main-nav li.catalog-links a#a-catalog-links:hover{
+	background:url(../images/bullet-tips-closed.gif) no-repeat 0 3px;
+	color:#EB1A3E;
+}
+ul#main-nav li.catalog-links a:hover{
+	color:#EB1A3E;
+}
+ul#main-nav li.catalog-links a.current-top{
+	color:#EB1A3E;
+	background:url(../images/bullet-tips-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+
+ul#main-nav li.contactus-links a#a-contactus-links:hover{
+	background:url(../images/bullet-twoyear-closed.gif) no-repeat 0 3px;
+	color:#8cc63f;
+}
+ul#main-nav li.contactus-links a:hover{
+	color:#8cc63f;
+}
+ul#main-nav li.contactus-links a.current-top{
+	color:#8cc63f;
+	background:url(../images/bullet-twoyear-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+
+ul#main-nav li.generalinfo-links a#a-generalinfo-links:hover{
+	background:url(../images/bullet-generalinfo-closed.gif) no-repeat 0 3px;
+	color:#00c2ad;
+}
+ul#main-nav li.generalinfo-links a:hover{
+	color:#00c2ad;
+}
+ul#main-nav li.generalinfo-links a.current-top{
+	color:#00c2ad;
+	background:url(../images/bullet-generalinfo-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+
+ul#main-nav li.onlinestore-links a#a-onlinestore-links:hover{
+	background:url(../images/bullet-onlinestore-closed.gif) no-repeat 0 3px;
+	color:#c200a6;
+}
+ul#main-nav li.onlinestore-links a:hover{
+	color:#c200a6;
+}
+ul#main-nav li.onlinestore-links a.current-top{
+	color:#c200a6;
+	background:url(../images/bullet-onlinestore-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+
+ul#main-nav li.jobseekers-links a#a-jobseekers-links:hover{
+	background:url(../images/bullet-summerprogram-closed.gif) no-repeat 0 3px;
+	color:#00b5cc;
+}
+ul#main-nav li.jobseekers-links a:hover{
+	color:#00b5cc;
+}
+ul#main-nav li.jobseekers-links a.current-top{
+	color:#00b5cc;
+	background:url(../images/bullet-summerprogram-closed.gif) no-repeat 0 3px;
+	font-weight:bold;
+}
+strong#iconmenu1 {
+	float:left;
+	height:25px;
+	margin:25px 10px 11px 27px;
+}
+strong#iconmenu2 {
+	float:left;
+	height:25px;
+	margin:25px 10px 11px 0;
+}
+strong#iconmenu3 {
+	float:left;
+	height:25px;
+	margin:25px 10px 11px 0;
+}
+strong#iconmenu4 {
+	float:left;
+	height:25px;
+	margin:0 10px 11px 27px;
+}
+strong#iconmenu5 {
+	float:left;
+	height:25px;
+	margin:0 10px 11px -1px;
+}
+strong#iconmenu6 {
+	float:left;
+	height:25px;
+	margin:0 10px 11px -1px;
+}
+.googleplus {
+	float:left;
+	margin:0 10px 11px 27px;
+}
+
+
+/*-- right column --*/
+#column-right {
+	float:right;
+	margin:290px 0 0 0;
+	width:740px;
+}
+.content-left{
+	bborder:1px solid blue;
+	float:left;
+	margin:20px 0 0 0;
+	padding:0 0 0 0;
+	width:200px;
+}	
+.content-right {
+	border-left:1px solid #C0EDF2;
+	margin:20px 30px 0 190px;
+	padding:0 0 0 30px;
+}
+.content-right h1 {
+	color:#6D2887;
+	font-size:1.3em;
+	font-weight:bold;
+	margin:20px 0 0 0;
+}
+.content-right p {
+	font-size:1.2em;
+	line-height:1.6em;
+	margin:0 0 12px 0;
+}
+#content-bottom {
+	bborder:1px solid brown;
+	margin:0 12px 0 0;
+	padding:30px 0 0 0;
+	clear:both;
+}
+
+a:link.more  {color:#8C8C8C; text-decoration:underline;}
+a:visited.more  {color:#8C8C8C; text-decoration:underline;}
+a:hover.more {color:#3F3F3F; text-decoration:none;}
+
+
+
+/*-- Sub Nav --*/
+ul#sub-nav {
+	width:160px;
+	margin:0 0 0 20px;
+}
+ul#sub-nav li {
+	padding:6px 0 7px 0;
+	list-style:none;
+	text-align:right;
+	border-bottom:1px solid #ccc;
+}
+ul#sub-nav li.last {border:0;}
+
+ul#sub-nav li a {
+	color: #6e7a81;
+	font-size:1.2em;
+	text-decoration:none;
+	font:1.15em Georgia, Times, serif;
+}
+ul#sub-nav li a:hover {color: #00b5cc; text-decoration:underline;}
+
+/*-- Alumni Nav --*/
+
+
+
+
+
+
+
+
+
+
+/*-- footer --*/
+#footer {
+	bborder:1px solid brown;
+	color:#999;
+	clear:both;
+	font-size:1.1em;
+	padding:65px 0 10px 25px;
+	width:873px;
+}
+
+ul#contact-info {
+	display:inline; 
+	float:left; 
+	margin:0 0 8px 0;
+}
+ul#contact-info li {
+	color:#fff;
+	float:left;
+	font-size:1.15em;
+	font-weight:bold;
+	margin:0 4px 0 0;
+	padding:3px 12px;
+	list-style:none;
+}
+li#email{background:#8CC63F;}
+li#phone{background:#6E298D;}
+li#address{background:#EB008B;}
+ul#contact-info li a{color:#fff; text-decoration:none;}
+ul#contact-info li a:hover{text-decoration:underline;}
+
+#copyright{float:left;}
+
+#site-info {
+	float:right;
+	display:inline;
+}
+#site-info li {
+	float:left;
+	padding:0 12px 0 14px;
+	list-style:none;
+	background:url(../images/footer-nav-separator.gif) no-repeat 0 50%;
+}
+#site-info li a {
+	color:#999;
+	text-decoration:none;
+}
+#footer ul li a:hover {text-decoration:underline;}
+
+
+
+/*----- utilities -----*/
+.bold{font-weight:bold;}
+.orange{color:#f8981d;}
+.pink{color:#EB008B;}	
+.fixclear{clear:both;}
+
+
+a.external {
+	background:url(../images/icon-link-external.gif) no-repeat right center;
+	padding:0 13px 0 0;	
+}

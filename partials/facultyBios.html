@@ -1,0 +1,8 @@
+<input id='facultyFilter' type="search" ng-model="q" placeholder="Filter Faculty..."/>
+<h1>Faculty</h1>
+<hr>
+<br>
+<bio-post ng-repeat="staff in results = (people | filter:q)"></bio-post>
+<div ng-class="adminBio" ng-if="results.length == 0">
+    <p>No Results Found.</p>
+</div>	

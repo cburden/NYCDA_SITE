@@ -1,0 +1,5 @@
+<strong ng-repeat="link in SocialMediaLinks" id="{{'iconmenu' + ($index + 1)}}">
+	<a href="{{link.ref}}" title="{{link.title}}">
+		<img src="{{link.img}}" alt="{{link.title | lowercase}}" />
+	</a>
+</strong>

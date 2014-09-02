@@ -1,0 +1,7 @@
+
+
+ul#sub-nav li a:hover {color: #6E298D; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #6E298D; text-decoration:underline;}
+ul#sub-nav li a#current {color:#6E298D; font-weight:bold;} 
+
+

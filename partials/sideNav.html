@@ -1,0 +1,6 @@
+
+<ul id="main-nav">
+	<li ng-repeat="link in navLinks" class={{link.class}} >
+		<a href="{{link.ref}}" id="a-{{link.class}}" ng-class="link.isCurrent ? 'current-top' : ''" ng-bind-html="link.text"></a>
+	</li>
+</ul>

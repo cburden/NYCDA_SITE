@@ -1,0 +1,93 @@
+/* programTwoYear.css */
+
+#twoYearProgramInfo{
+	bborder:1px solid purple;
+	margin:0 0 0 0;
+}
+.optext {
+	margin:20px 0 40px 0;
+}
+.content-right h2 {
+	color:#8cc63f;
+	font-size:1.35em;
+	margin:0px 0 8px 0;
+	text-transform:uppercase;
+}
+.optext h2 {
+	color:#8cc63f;
+	font-size:1.35em;
+	margin:0px 0 8px 0;
+	text-transform:uppercase;
+}
+.optext h3 {
+	color: #6E298D;
+	font-size:1.25em;
+	margin:0;
+	margin:0 0 5px 0;
+}
+.optext h4 {
+	color: #EB008B;
+	font-size:1.2em;
+	margin:0 0 2px 0;
+}
+
+.optext h5 {
+	color: #6E298D;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+}
+
+.optext h6 {
+	color: #EB008B;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+}
+
+.optext ul {
+	bborder:1px solid orange;
+	margin:0 0 0 40px;
+}
+.optext p {
+	color:#525252; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 20px 0;
+}
+
+.optext span {color:#EB008B; font-weight:bold}
+
+ul#optext li {
+	font-size:1.2em;
+	line-height:1.3em;
+	font:Arial, Helvetica, sans-serif;
+	color: #EB008B;
+	padding-bottom:10px;
+}
+ul#optext li span{color:#525252; font-weight:normal;}
+ul#optext li.last{color:#EB008B; font-weight:normal; padding-bottom:20px;}
+ul#optext li.last span{color:#525252; font-weight:normal; padding-bottom:20px;}
+
+/* sub nav */
+/* overrides from global.css */
+ul#sub-nav li a:hover {color: #8cc63f; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #8cc63f; text-decoration:underline;}
+ul#sub-nav li a#current {color:#8cc63f; font-weight:bold;} 
+
+.optext table {margin:0 0 10px 0;}
+.optext th {
+	color: #eb008b;
+	font-size:1.25em;
+	font-weight:bold;
+	padding:3px 0;
+	text-align:left;
+	text-transform:uppercase;
+}
+.optext td {
+	font-size:1.2em;
+	padding:3px 0;
+}
+.optext td.event {font-weight:bold;}
+
+a.top {color:#01B5CC;}
+a.top:hover {color:#01B5CC;}

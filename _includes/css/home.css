@@ -1,0 +1,94 @@
+/* home.css */
+/* styles for the SFT home page. */
+
+
+/* overrides of styles from global.css */
+/* home page layout is lightly different than the rest of the pages in the site */
+#column-right {
+	float:right;
+	margin:0 0 0 0;
+	width:745px;
+}
+.content-left {
+	background:url(../images/welcome.jpg) no-repeat right top;
+	float:left;
+	height:235px;
+	width:250px;
+}
+.content-right {
+	bborder:1px solid green;
+	border-left:1px solid #c0edf2;
+	margin:0 40px 20px 256px;
+	padding:15px 12px 30px 7px;
+}
+.bodyHome {
+	font-size: 9pt;
+}
+a:link {
+	color: #525252;
+}
+a:visited {
+	color: #525252;
+}
+a:hover {
+	color: #525252;
+}
+a:active {
+	color: #525252;
+}
+.headerHome {
+	color: #6E298D;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+
+/*-- News & Events section --*/
+#news-events {
+	background:#FFA500 url(../images/index_newsvert.gif) no-repeat 0px 10px;
+	bborder:1px solid blue;
+	font-size:1.2em;
+	padding:1px 0px 1px 50px;
+}
+#news-events-content {
+	background:#fff;
+	padding:11px;
+}
+
+#news-events-content h2 {color:#f8981d; font-size:1em; margin:0 0 4px 0;}
+#news-events-content h3 {color:#f8981d; font-size:1em;}
+#news-events-content h4 {font-size:1em;}
+#news-events-content h5 {font-size:1em; margin:12px 0 0 0;}
+
+#news-events-content ul li{
+	margin:0 0 0 15px;
+	padding:0;
+}
+#news-events-content ul li {color:#f8981d;}
+#news-events-content ul li span {color:#525252;}
+
+#news-events-one {
+	float:left;
+	width:325px;
+}
+.news-events-block {margin-bottom:25px;}
+.featured-alumni img {float:left;}
+#news-events-content .featured-alumni ul li{
+	list-style-type:none;
+	margin:0 0 0 1px;
+}
+.featured-alumni-info {margin:0 0 0 95px;}
+
+#news-events-two {
+	border-left:1px solid #f8981d;
+	margin:0 0 0 325px;
+	padding:0 0 0 11px;
+}
+#news-events-two ul li{margin-bottom:16px;}
+#news-events-content ul li.student-pic {list-style-type:none; margin:0 0 16px 0;}
+.student-pic img{float:left; margin:0 10px 0 0;}
+.student-pic-info{margin:0 0 0 0;}
+
+a.newslink  {color:#525252; font-weight:bold; text-decoration:underline;}
+a.newslink:visited  {color:#525252; text-decoration:underline;}
+a.newslink:hover {color:#000; text-decoration:none;}

@@ -1,0 +1,22 @@
+<tr class="alumnPost">
+	    <td width="44" align="left" valign="top">&nbsp;</td>
+	    <td width="174" align="left" valign="top" ng-if="person.pic">
+	    	<p>
+	    			<img ng-src="../_includes/images/{{person.pic}}" alt="{{person.name}}" border="0" />
+	    	</p>
+	    </td>
+	    <td width="42" align="left" valign="top">&nbsp;</td>
+	    <td width="446" align="left" valign="top">
+	    	<p class="style9">{{person.name}}</p>
+	        <p class="style10" ng-if="person.show.length" ng-repeat="showName in person.show">{{showName}}</p>
+
+	    <p class="style8" ng-bind-html="alumnText"></p>
+
+	    <p class="style8" ng-if="person.link">
+	    	<a href="http://sft.edu/alumni/{{person.link}}">
+	    		<img src="../_includes/images/alumni_readmore.gif" alt="" width="68" height="19" border="0" />
+	    	</a>
+	    </p>
+	    </td>
+        
+	</tr>

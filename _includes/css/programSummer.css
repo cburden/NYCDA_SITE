@@ -1,0 +1,107 @@
+/* programSummer.css */
+
+#summerProgramInfo{
+	bborder:1px solid purple;
+	margin:40px 0 0 0;
+}
+
+.smtext {
+	margin:20px 0 40px 0;
+}
+.content-right h2 {
+	color:#00b5cc;
+	font-size:1.35em;
+	margin:0px 0 8px 0;
+	text-transform:uppercase;
+}
+.smtext h2 {
+	color:#00b5cc;
+	font-size:1.35em;
+	margin:0px 0 8px 0;
+	text-transform:uppercase;
+}
+.smtext h3 {
+	color: #6E298D;
+	font-size:1.25em;
+	margin:0;
+	margin:0 0 5px 0;
+}
+.smtext h4 {
+	color: #EB008B;
+	font-size:1.2em;
+	margin:0 0 2px 0;
+}
+
+.smtext h5 {
+	color: #6E298D;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+}
+
+.smtext h6 {
+	color: #EB008B;
+	font-size:1.2em;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+}
+
+.smtext ul {
+	bborder:1px solid orange;
+	margin:0 0 0 40px;
+}
+.smtext p {
+	color:#525252; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 20px 0;
+}
+
+.smtext span {color:#EB008B; font-weight:bold}
+
+ul#smtext li {
+	font-size:1.2em;
+	line-height:1.3em;
+	font:Arial, Helvetica, sans-serif;
+	color: #EB008B;
+	padding-bottom:10px;
+}
+ul#smtext li span{color:#525252; font-weight:normal;}
+ul#smtext li.last{color:#EB008B; font-weight:normal; padding-bottom:20px;}
+ul#smtext li.last span{color:#525252;}
+
+
+.smtext table {margin:0 0 10px 0;}
+.smtext th {
+	color: #eb008b;
+	font-size:1.25em;
+	font-weight:bold;
+	padding:3px 0;
+	text-align:left;
+	text-transform:uppercase;
+}
+.smtext td {
+	font-size:1.2em;
+	padding:3px 0;
+}
+.smtext td.event {font-weight:bold;}
+
+/* sub nav */
+/* overrides from global.css */
+ul#sub-nav li a:hover {color: #00b5cc; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #00b5cc; text-decoration:underline;}
+ul#sub-nav li a#current {color:#00b5cc; font-weight:bold;} 
+
+a.top {color:#8CC63E;}
+a.top:hover {color:#8CC63E;}
+.alum-side-link {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10pt;
+}
+.style2 {font-size: 9pt}
+.style9 {
+	font-size: 12px
+}
+.style10 {
+	color: #00b5cc;
+	font-weight: bold;
+}

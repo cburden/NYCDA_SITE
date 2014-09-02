@@ -1,0 +1,7 @@
+<div ng-class="(staff.admin == 1) ? 'adminBio' : 'facultyBio'">
+    <img ng-src="../_includes/images/{{staff.image}}" ng-show="{{staff.admin}}" width="79" height="79"/>
+    <h2>{{staff.firstName}} <span>{{staff.lastName | uppercase}}</span></h2>
+    <h3 ng-show="{{staff.admin}}">{{staff.title}}</h3>
+    <p ng-bind-html="bioText"></p>
+    <a href="#faculty" class="top">Back to Top</a>
+</div>	

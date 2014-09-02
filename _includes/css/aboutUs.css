@@ -1,0 +1,102 @@
+/* aboutUs.css */
+
+
+/*-- Our Advantages --*/	
+.content-right ol {
+	color:#F8981D;
+	font:bold 2em Georgia, "Times New Roman", Times, serif;
+	margin:0 12px 40px 25px;
+}
+.content-right ol li {
+	margin:18px 0;
+}
+.content-right ol li span {
+	font:normal .8em Arial, Helvetica, sans-serif;
+	color:#6e298c;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.content-right ol li p {
+	color:#525252;
+	font:normal .6em/1.6em Arial, Helvetica, sans-serif;
+	margin:0 0 20px 0;
+}
+.icon-arrow-right {margin:0 0 0 6px;}
+
+
+/*----- faculty -----*/
+/*
+ul#nav-faculty {
+	background:#efefef;
+	border:1px dashed #ccc;
+	margin:5px 0 0 0;
+}
+ul#nav-faculty li {border-bottom:1px dashed #ccc;}
+*/
+#bios {margin:50px 0 0 0;}
+
+div.adminBio {
+	margin:0 0 50px 0;	
+}
+div.adminBio img {
+	float:left;
+	margin:0 8px 0 0;	
+}
+#bios h1{
+	color: #39A513;
+	font-size:2em;	
+	padding:0 0 16px 0;
+	text-transform:uppercase;
+}
+div.adminBio h2{
+	color: #eb008b;
+	font-size:1.55em;	
+	padding:46px 0 0 0;
+	text-transform:uppercase;
+}
+div.adminBio h3 {
+	color: #6E298D;
+	font-size:1.25em;
+}
+div.adminBio p {
+	clear:left;
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:8px 0 10px 0;
+}
+
+div.facultyBio {
+	margin:0 0 50px 0;
+}
+div.facultyBio h1{
+	color: #39A513;
+	font-size:1.35em;	
+	padding:0 0 16px 0;
+	text-transform:uppercase;
+}	
+div.facultyBio h2 {
+	color: #eb008b;
+	font-size:1.55em;	
+	text-transform:uppercase;	
+}
+div.facultyBio h2 span{
+	color: #6E298D;
+	text-transform:none;
+}
+div.adminBio p {
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:8px 0 20px 0;
+}
+
+#facultyFilter{
+	border-radius: 12px;
+	float:right;
+	padding: 3px;
+}
+
+ul#sub-nav li a:hover {color: #6E298D; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #6E298D; text-decoration:underline;}
+ul#sub-nav li a#current {color:#6E298D; font-weight:bold;} 
+
+

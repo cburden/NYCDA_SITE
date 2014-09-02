@@ -1,0 +1,100 @@
+/* scholarships.css */
+
+.sfatext {
+	margin:20px 0 40px 0;
+}
+.sfatext h2 {
+	color:#f8981d;
+	font-size:1.35em;
+	margin:0px 0 16px 0;
+	text-transform:uppercase;
+}
+.sfatext h3 {
+	color: #eb008b;
+	font-size:1.25em;
+	margin:0;
+}
+.sfatext h4 {
+	color: #6E298D;
+	font-size:1.2em;
+	margin:0 0 3px 0;
+}
+.sfatext ul {
+	bborder:1px solid orange;
+	margin:0 0 0 40px;
+}
+.sfatext p {
+	color:#525252; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 20px 0;
+}
+
+ul#sfatext li {
+	font-size:1.2em;
+	line-height:1.4em;
+	font:Arial, Helvetica, sans-serif;
+	color: #6e298c;
+	padding-bottom:10px;
+}
+
+ul#sfatext li span{color:#EB008B; font-weight:bold;}
+ul#sfatext li span a{color:#EB008B; font-weight:bold; text-decoration:underline;}
+ul#sfatext li span a:hover{color:#525252; text-decoration:none;}
+
+ul#sfalinks li {
+	font-size:1.2em;
+	line-height:1.4em;
+	font:Arial, Helvetica, sans-serif;
+	color: #FE7200;
+	padding-bottom:10px;
+	list-style:none;
+	margin:0 0 0 -40px;
+}
+.sfatext dt {
+	color: #eb008b;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:0 0 4px 0;
+	text-transform:uppercase;
+}
+.sfatext dd {
+	color:#000; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 10px 0;
+}
+.sfatext table {margin:0 0 10px 0;}
+.sfatext th {
+	color: #eb008b;
+	font-size:1.25em;
+	font-weight:bold;
+	padding:3px 0;
+	text-align:left;
+	text-transform:uppercase;
+}
+.sfatext td {
+	font-size:1.2em;
+	padding:3px 0;
+}
+
+.sfalight {
+	font:Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:underline;
+}
+
+a:hover.sfalight {
+	font:Arial, Helvetica, sans-serif;
+	color:#525252;
+	text-decoration:none;
+}
+
+/* sub nav */
+/* overrides from global.css */
+ul#sub-nav li a:hover {color: #f8981d; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #f8981d; text-decoration:underline;}
+ul#sub-nav li a#current {color:#f8981d; font-weight:bold;} 
+
+a.top {color:#01B5CC;}
+a.top:hover {color:#01B5CC;}

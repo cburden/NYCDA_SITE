@@ -1,0 +1,255 @@
+/* popups */
+
+ul, ol, li, form, h1, h2, h3, h4, p, dl, dt, dd, input, form{padding:0; margin:0;}
+address {font-style:normal;}
+img{border:0;}
+
+body {
+	bborder:1px solid blue;
+	background:#fff;
+	margin:0;
+	padding:0;
+	color:#525252;
+	font-size:64%;
+}
+#main {
+	bborder:1px solid blue;
+	font:1em Arial, sans-serif;
+	background-color:#fff;
+	padding:10px;
+}
+
+/*-- global link styles - copied from global.css --*/
+a {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:underline;}
+a.link {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:underline;}
+a:visited {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:underline;}
+a:hover {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:none;}
+a:focus {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:none;}
+a:active {font:Arial, Helvetica, sans-serif; color:#525252; text-decoration:none;}
+
+h1 {
+	color:#EB008B;
+	font-size:2.2em;
+	margin:0 0 30px 0;
+	text-transform:uppercase;
+	ttext-indent:-9999px;
+}
+h1.accreditation {
+	background:url(../images/popup-title-accreditation.gif) no-repeat;
+}
+h1.auditions {
+	background:url(../images/popup-title-2007auditions.gif) no-repeat 23px 0px;
+}
+h1.applynow {
+	background:url(../images/popup-title-applynow.gif) no-repeat 0px 0px;
+}
+h1.requestinfo {
+	background:url(../images/popup-title-requestinfo.gif) no-repeat 0px 0px;
+}
+h1.contactus {
+	background:url(../images/popup-title-contactus.gif) no-repeat 0px 0px;
+}
+h2 {
+	color:#6d2887;
+	clear:both;
+	font-size:1.35em;
+	text-transform:uppercase;
+}
+h2.audition-schedule {
+	color:#EB008B;
+}
+h3 {color:#EB008B;
+	font-size:1.2em;}
+p {
+	font-size:1.2em;
+	line-height:1.6em;	
+	margin:0 0 10px 0;
+}
+
+p.audition-process {
+	margin:0 0 45px 0;	
+}
+div#content{
+	border:1px solid #6D2887;
+	border-top-width:5px;
+	margin:10px;
+	margin-top:0;	
+	padding:10px;
+}
+
+table#datesHeader th{
+	color:#EB008B;
+	font-size:1.3em;
+	text-align:left;
+	text-transform:uppercase;
+}
+table#datesList td{
+	color:#000;
+	font:1.2em Arial, sans-serif;
+}
+tr.row-grey{background:#E5E5E5;}
+
+
+/* audition tabs */
+.ddoverlap {
+	margin:0 10px 0 0;
+}
+.ddoverlap ul {
+	float:right;
+	list-style-type:none;
+}
+.ddoverlap li {
+	background:#EB008B;
+	display:inline;
+	float:left;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0 0 0 4px;
+}
+.ddoverlap li.selected {
+	background:#6D2887;
+}
+.ddoverlap li a{
+	display:block;
+	padding:3px 16px 3px 16px;
+	text-decoration: none;
+	color: #fff;
+}
+.ddoverlap li a:visited{
+	color:#fff;
+}
+.ddoverlap li a:hover{
+	text-decoration: underline;
+}
+.fixclear{clear:both;}
+
+
+
+a.email {
+	color:#3F3F3F;
+	font-weight:bold;
+}
+a.pdfDownload {
+	background:url(../images/icon-pdf.gif) no-repeat right top;
+	color:#3F3F3F;
+	font-weight:bold;
+	padding:2px 22px 2px 0;
+}
+a.catalogDownload {
+	background:url(../images/icon-pdf.gif) no-repeat right top;
+	color:#3F3F3F;
+	font-weight:normal;
+	font-size:1.5em;
+	padding:2px 20px 2px 0;
+}
+
+/* Request Catalog */
+form#requestCatalog {
+	border-top:1px solid #AEB5BA;
+	padding:20px 0 0 0;
+}
+form#requestCatalog .left {float:left; padding:0 20px 0 0;}
+input#nameFirst {width:235px;}
+input#nameLast {width:235px;}
+input#address {width:495px;}
+input#city {width:340px;}
+input#state {width:25px;}
+input#zip {width:80px;}
+input#country {width:285px;}
+input#phone {width:185px;}
+input#email {width:495px;}
+input#dob {width:240px;}
+input#currentSchool {clear:both; width:240px;}
+input#hsGraduation {width:224px;}
+textarea#comments {width:495px;}
+input#submit {
+	background:#EB008B; 
+	border:0;
+	color:#fff;
+	float:right;
+	font-size:1.3em;
+	font-weight:bold;
+	margin:10px 19px 0 0;
+	padding:3px 10px;
+	text-transform:uppercase;
+}
+
+/* Contact Us */
+.contactinfo{
+	font-size:1.3em;	
+	line-height:1.6em;
+}
+
+.pink{color:#EB008B;}
+.bold{font-weight:bold;}
+.leftMargin180{padding:20px 0 22px 210px;}
+
+
+
+/*-- Request info Form Validation --*/
+form#joinMailingList {
+	bborder:1px solid green;	
+	padding:20px 0 0 0;
+	width:462px;
+}
+form#joinMailingList td {font-size:1.2em; padding:20px 0 0 0;}
+form#joinMailingList td td{font-size:1em; padding:0 0 0 0;}
+form#joinMailingList .left {float:left; padding:0 20px 0 0;}
+.textInput {border:1px solid #999;}
+.selectInput {border:1px solid #fff;}
+input:focus{background:#C2F0F6;}
+input#nameFirst {width:215px;}
+input#nameLast {width:219px;}
+input#address {width:450px;}
+input#city {width:312px;}
+input#state {width:25px;}
+input#zip {width:80px;}
+input#country {width:250px;}
+input#phone {width:184px;}
+input#email {width:450px;}
+input#dob {width:250px;}
+input#currentSchool {width:250px;}
+input#hsGraduation {width:184px;}
+input#source {width:450px;}
+form#joinMailingList h3 {
+	color:#EB008B;
+	margin:0 0 4px 0;
+	font-size:1em;
+}
+textarea#comments {width:449px;}
+input#submit {
+	background:#EB008B; 
+	border:0;
+	color:#fff;
+	float:right;
+	font-size:1.1em;
+	font-weight:bold;
+	margin:10px 0 0 0;
+	padding:3px 7px;
+	text-transform:uppercase;
+}
+.validation-failed {
+	border: 1px solid #f00;
+}
+.validation-passed {
+	border: 1px solid green;
+}
+.validation-advice {
+	mmargin: 2px; 
+	padding: 2px; 
+	color:#fff; 
+	background-color:#f00;
+}
+.warning {
+	border: 1px solid #c66;
+}
+.warning-advice {
+	margin: 2px;
+	padding: 2px;
+	color:#fff;
+	background-color:#bbb;
+}
+.formAdvice {
+	color:#666;
+	margin:0 0 0 6px;
+}

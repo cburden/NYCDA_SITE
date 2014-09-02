@@ -1,0 +1,32 @@
+/* studentServices.css */
+
+/*-- Bookstore --*/
+#bookstoreInfo {margin:20px 0 0 0;}
+.bookstoretext {margin:0 0 0 0;}
+
+.bookstoretext p {
+	color:#525252; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 40px 0;
+}
+
+.bookstoretext ul {margin:0 0 0 40px;}
+
+ul#bookstoretext li {
+	font-size:1.2em;
+	line-height:1.3em;
+	font:Arial, Helvetica, sans-serif;
+	color: #EB008B;
+	padding-bottom:10px;
+}
+
+ul#bookstoretext li span{color:#525252;}
+
+ul#sub-nav {
+	bborder:1px solid green;
+	width:160px;
+	margin:0 0 0 20px;
+}
+ul#sub-nav li a#current {color:#007cc2; font-weight:bold;} 
+ul#sub-nav li a:hover {color:#007cc2;} 

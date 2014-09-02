@@ -1,0 +1,39 @@
+/* alumni.css */
+
+/*-- Alumni --*/
+
+#alumniInfo{
+	bborder:1px solid purple;
+	margin:40px 0 0 0;
+}
+.alumnitext {
+	margin:0 0 0 0;
+}
+
+.alumnitext p {
+	color:#525252; 
+	font-size:1.2em;
+	line-height:1.4em;
+	margin:0 0 40px 0;
+}
+
+.alumnitext ul {
+	bborder:1px solid orange;
+	margin:0 0 0 40px;
+}
+
+ul#alumnitext li {
+	font-size:1.2em;
+	line-height:1.3em;
+	font:Arial, Helvetica, sans-serif;
+	color: #EB008B;
+	padding-bottom:10px;
+}
+ul#alumnitext li span{color:#525252;}
+
+ul#sub-nav li a:hover {color: #06920a; text-decoration:underline;}
+ul#sub-nav li a.active:hover {color: #06920a; text-decoration:underline;}
+ul#sub-nav li a#current {color:#06920a; font-weight:bold;} 
+
+
+
