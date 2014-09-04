@@ -77,7 +77,11 @@
 			restrict: 'E',
 			templateUrl: '../partials/socialMediaIcon.html',
 			controller: function($scope, SocialMediaLinks){
-				$scope.SocialMediaLinks = SocialMediaLinks.links();
+				
+				SocialMediaLinks.links()
+						.success(function(data){
+								$scope.SocialMediaLinks = data;
+						});
 			}
 		};
 	});
