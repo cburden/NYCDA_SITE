@@ -1,5 +1,6 @@
 [
 <<<<<<< HEAD
+<<<<<<< HEAD
 	{
 		"name" 	: "Shelley Hennig",
 		"show" 	: ["When Beauty Meets Talent"],
@@ -1265,6 +1266,8 @@
 	}
 ]
 =======
+=======
+>>>>>>> 62876ddc361ca4fc06b5952d0ea7702102575498
 			{
 				"name" 	: "Shelley Hennig",
 				"show" 	: ["When Beauty Meets Talent"],
@@ -2529,5 +2532,9 @@
 			"pic" : "",
 			"bio"	: "Maura now works as a Production Manager. She has worked for several major production companies and did the photography on a film directed by Max Winkler starring Uma Thurman, Michael Angarano, and Lee Pace."
 		}
+<<<<<<< HEAD
+	]
+>>>>>>> 62876ddc361ca4fc06b5952d0ea7702102575498
+=======
 	]
 >>>>>>> 62876ddc361ca4fc06b5952d0ea7702102575498
