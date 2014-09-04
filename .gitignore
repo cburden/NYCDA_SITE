@@ -217,3 +217,7 @@ pip-log.txt
 /node_modules/
 *.pdf
 *.swf
+
+/_notes/
+*/_notes/
+*/*/_notes/
