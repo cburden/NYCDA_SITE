@@ -1,6 +1,7 @@
 <?php
 
 require 'Slim/Slim.php';
+require '../config/db.php';
 
 \Slim\Slim::registerAutoloader();
 
@@ -12,10 +13,10 @@ $app->response->headers->set('Content-Type', 'application/json');
 
 
 function connect_db() {
-    $server = 'mysqlv110'; // this may be an ip address instead
-    $user = 'webgurucb';
-    $pass = 'nycda5ch00L';
-    $database = 'nycda_db';
+    $server = $SERVER;
+    $user = $USER;
+    $pass = $PASS;
+    $database = $DATABASE;
     $connection = new mysqli($server, $user, $pass, $database);
 
     return $connection;
